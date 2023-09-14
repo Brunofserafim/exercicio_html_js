@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+    }
+
+    body{
+        margin-top: 80px;
+        text-align: center;
+    }
+    .container {
+        align-items: center;
+        margin: 20px auto;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    form {
+        margin-top: 40px;
+    }
+
+    input, textarea, button {
+        padding: 25px;
+        margin-bottom: 8px;
+        width: 100%;
+        resize: none;
+    }      
+
+    button {
+        background-color: yellow;
+        border: none;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        tyle: italic;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: yellow;
+    }
+
+.success-message {
+    background-color: blue;
+    color: white;
+    width: auto;
+    padding: 16px;
+    display: none;
+    margin-bottom: 8px;
+    margin-left: 25%;
+}
+
+.error-message {
+    background-color: red;
+    color:#fff;
+    width: auto;
+    padding: 16px;
+    display: none;
+    margin-bottom: 8px;
+    margin-left: 25%;
+}
